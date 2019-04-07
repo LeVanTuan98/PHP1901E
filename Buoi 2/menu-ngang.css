@@ -1,0 +1,39 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: "Times New Roman";
+    color:white;
+}
+
+#menu ul {
+    list-style-type: none;
+    /*overflow: hidden;*/
+    background: black;
+    text-align:center;
+}
+#menu ul li {
+    display:inline-table;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    position:relative;
+}
+#menu ul li a {
+    color:white;
+    font-weight: bold;
+    display:block;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background: white;
+    color:black;
+}
+#menu ul li > .sub-menu {
+    display:none;
+    position:absolute;
+}
+#menu ul li:hover .sub-menu {
+    display:block;
+}

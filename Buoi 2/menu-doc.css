@@ -1,0 +1,25 @@
+body {
+    width:300px;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.menu {
+    background: orange;
+    color: white;
+    padding:6px;
+}
+li {
+    padding-left: 20px;
+    padding-bottom: 6px;
+}
+.content {
+    color:black;
+}
+.main {
+    background: gray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

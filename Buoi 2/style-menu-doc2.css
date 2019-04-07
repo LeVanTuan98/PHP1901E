@@ -1,0 +1,48 @@
+#menu  {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    width:300px
+}
+#menu > p {
+    background: orange;
+    color:white;
+    height:40px;
+    line-height:40px;
+}
+#menu ul {
+    background: #7c7f80;
+}
+#menu ul li {
+    height:40px;
+    line-height:40px;
+    position:relative;
+}
+#menu ul li a {
+    text-decoration: none;
+    color:black;
+
+}
+#menu ul li a:hover {
+    color:white;
+}
+.sub-sam ,.sub-hua {
+    width:300px;
+}
+#menu ul li> .sub-sam {
+    display:none;
+    position:absolute;
+    margin-left:250px;
+    top:0;
+}
+#menu ul li:hover > .sub-sam {
+    display:block;
+}
+#menu ul li> .sub-hua {
+    display:none;
+    position:absolute;
+    margin-left:250px;
+    top:0;
+}
+#menu ul li:hover > .sub-hua {
+    display:block;
+}
