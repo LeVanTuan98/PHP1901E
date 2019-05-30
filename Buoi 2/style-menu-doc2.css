@@ -1,7 +1,8 @@
 #menu  {
     font-family: "Times New Roman";
     font-size: 20px;
-    width:300px
+    width:300px;
+    position:fixed;
 }
 #menu > p {
     background: orange;
